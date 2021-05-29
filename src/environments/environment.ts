@@ -3,9 +3,24 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  keycloakConfig: {
+    clientId: 'e-consignado',
+    realm: 'Dev',
+    //url: 'https://sso.cetelem.com.br/auth/'
+    //url: 'https://sso.teste.cetelem.com.br/auth/'
+    url: 'https://ec-pse-front-dev.teste.cetelem.com.br/auth/'
+    //url: 'https://sso-dev-rhsso.apps.alpha.pcloud.cetelem.com.br/auth/'
+  }
 };
 
+export const baseUrl = `https://poc-bpi.herokuapp.com/api/poc/`;
+export const baseLocalUrl = `http://localhost:8765/api/v1/`
+export const baseLocalUrlParameter = `http://localhost:8085/api/v1/`;
+export const baseLocalUrlRequestDetails = `http://localhost:8084/api/v1/`; 
+export const UrlCreditoImg = `src\Credito.png`;
+ 
+ 
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.

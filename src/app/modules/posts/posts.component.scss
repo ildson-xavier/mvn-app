@@ -1,0 +1,51 @@
+.example-container {
+    height: 400px;
+    width: 100%;
+    overflow: auto;
+  }
+  
+  table {
+    width: 800px;
+  }
+  
+  td.mat-column-star {
+    width: 20px;
+    padding-right: 8px;
+  }
+  
+  th.mat-column-position, td.mat-column-position {
+    padding-left: 8px;
+  }
+  
+  .mat-table-sticky:first-child {
+    border-right: 1px solid #e0e0e0;
+  }
+  
+  .mat-table-sticky:last-child {
+    border-left: 1px solid #e0e0e0;
+  }
+
+  /*
+    Customizacao do tabela
+  */
+
+  .label-vertical {
+    display: table-cell;
+    vertical-align: middle !important;
+    transform: rotate(270deg);
+  }
+  .altura {
+    height: 100px !important;
+    
+  }
+
+  .with-column {
+    min-width: 300px;
+  }
+
+  td  {
+    font-size: 10px;
+  }
+  th- {
+   font-size: 11px;
+  }
